@@ -1,0 +1,30 @@
+
+body{
+    background-color: #fff3eb;
+    color: #150060;
+    font-family: 'PT Serif', serif;
+
+}
+
+
+
+.navbar-toggler,
+.navbar-toggler-icon { 
+    background-color: #fff3eb;
+    border-color: #150060;
+    color: #150060;
+}
+
+
+nav a{
+    color: #150060;
+}
+
+.diff-font{
+    font-family: 'Caveat', cursive;
+}
+
+.navbar-toggler{
+    color: #150060;
+    background-color: #fff3eb;
+}
