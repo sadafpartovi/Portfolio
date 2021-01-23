@@ -3,28 +3,86 @@ body{
     background-color: #fff3eb;
     color: #150060;
     font-family: 'PT Serif', serif;
-
+    
 }
 
+/* navbar */
 
-
-.navbar-toggler,
-.navbar-toggler-icon { 
-    background-color: #fff3eb;
-    border-color: #150060;
-    color: #150060;
-}
-
-
-nav a{
-    color: #150060;
+nav a {
+ color: #150060 !important;
 }
 
 .diff-font{
     font-family: 'Caveat', cursive;
+    
 }
 
 .navbar-toggler{
     color: #150060;
     background-color: #fff3eb;
 }
+
+.bg-light{
+    background-color: #fff3eb !important;
+
+}
+
+
+/* heading */
+
+
+/* portfolio */
+
+.portfolio-heading{
+    color: #150060 !important;
+    
+
+}
+
+.card{
+    background-color: #fff3eb !important;
+    border: none !important;
+
+}
+
+
+.container-s{
+    position: relative;
+    width: 33%;
+    
+
+}
+
+.container-s img{
+   
+    
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+
+}
+
+.container-s .btn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #fff3eb;
+    color: #150060 ;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    opacity: .8;
+
+}
+
+.container-s .btn:hover {
+    opacity: 1;
+    
+  }
+
+
+
