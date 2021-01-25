@@ -32,7 +32,7 @@ nav a {
 .jumbotron{
     background-color: #fff3eb !important;
     color: #150060!important;
-  
+  background-image: url(https://static.wixstatic.com/media/933d68_a670a18001924e9c89acc4fc0c81c1dc~mv2.gif);
 
     width: 100vw;
     height: 100vh;
@@ -152,7 +152,7 @@ nav a {
 
 
 
-.btn:hover  {
+.card:hover .btn  {
     opacity: 1;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -169,6 +169,56 @@ nav a {
     
   }
 
+
+  /* contact */
+
+.col input{
+  background: #fff3eb !important;
+    border: solid 1px #150060 !important;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-radius: 0 !important;
+    outline: none !important;
+
+}
+
+
+.col:hover input {
+  border: solid 1px #150060 !important;
+  
+
+}
+
+input[type=text]:focus,
+input[type=email]:focus,
+textarea:focus{
+  outline: none !important;
+}
+
+
+  textarea{
+    width: 95% !important;
+    background: #fff3eb !important;
+    border: solid 1px #150060 !important;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-radius: 0 !important;
+    
+
+  }
+
+ .contact-btn{
+    color: #150060;
+    background-color: #fff3eb;
+    border: none;
+    font-size: 25px;
+    outline: none;
+
+  }
+
+  
   
 
  
