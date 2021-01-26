@@ -44,6 +44,23 @@ nav a {
     position: relative;
     justify-content: space-between;
     
+    
+
+}
+
+.about-sadaf{
+  float: left;
+  margin-top: 20%;
+
+}
+
+.sadaf-p{
+  margin-top: 30%;
+  text-align: center;
+  margin-left: 50%;
+  
+ 
+  
 
 }
 
@@ -259,11 +276,12 @@ button:focus{
 
   .contact-btn {
     width: 10%;
-    border: 1px solid #150060;
+  
     margin: 10% auto;
     border-radius: 50%;
-    color: #fff3eb;
-    background-color: #150060;
+    color: #150060;
+    background-image: url(https://static.wixstatic.com/media/933d68_5be69fcfaebb4d4a9b40bc7e9c6de62f~mv2.gif);
+    background-size: cover;
    
   }
 
