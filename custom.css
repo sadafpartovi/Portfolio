@@ -122,6 +122,12 @@ nav a {
 
 }
 
+.portfolio{
+  margin-left: 5rem !important;
+  margin-right: 5rem !important;
+
+}
+
 .card{
     background-color: #fff3eb !important;
     border: none !important;
@@ -192,8 +198,10 @@ nav a {
 
 input[type=text]:focus,
 input[type=email]:focus,
-textarea:focus{
-  outline: none !important;
+textarea:focus,
+button:focus{
+  box-shadow: none !important;
+  outline:none !important;
 }
 
 
@@ -218,8 +226,83 @@ textarea:focus{
 
   }
 
+
+
+  .add-bg{
+    position: relative; 
+    
+  }
+
+
+  .add-bg::before {
+    background-image: url("https://static.wixstatic.com/media/933d68_a670a18001924e9c89acc4fc0c81c1dc~mv2.gif");
+    content: "";
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px; 
+    opacity: 0.1;
+  }
+
+  label,
+  input,
+  textarea,
+  .contact-text,
+  .contact-btn {
+    position: relative;
+
+  }
+
+  input,
+  textarea {
+    opacity: 0.7;
+
+  }
+
+
+
+  #contact{
+    margin-left: 5rem !important;
+  margin-right: 5rem !important;
+
+  }
+
   
+
   
+  /* footer */
+
+  footer{
+    text-align: center;
+    display: flex;
+    justify-items:space-around;
+  
+  }
+
+
+   footer i{
+    color: #150060;
+   
+   }
+
+
+   .fa-linkedin-in {
+     
+     margin-right: 80%;
+     margin-bottom: 1rem;
+     
+   }
+  
+   .fa-instagram{
+    margin-left: 80%;
+    margin-bottom: 1rem;
+    
+    
+
+   }
+
 
  
 
