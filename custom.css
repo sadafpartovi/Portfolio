@@ -49,15 +49,15 @@ nav a {
 }
 
 .about-sadaf{
-  float: left;
+  
   margin-top: 20%;
 
 }
 
 .sadaf-p{
-  margin-top: 30%;
+  
   text-align: center;
-  margin-left: 50%;
+ 
   
  
   
@@ -191,64 +191,29 @@ nav a {
 
   /* contact */
 
-.col input{
-  background: #fff3eb !important;
-    border: solid 1px #150060 !important;
-    border-top: none !important;
-    border-left: none !important;
-    border-right: none !important;
-    border-radius: 0 !important;
-    outline: none !important;
-
-}
 
 
-.col:hover input {
-  border: solid 1px #150060 !important;
-  
 
-}
 
-input[type=text]:focus,
-input[type=email]:focus,
-textarea:focus,
+
+
 button:focus{
   box-shadow: none !important;
   outline:none !important;
 }
 
 
-  textarea{
-    width: 95% !important;
-    background: #fff3eb !important;
-    border: solid 1px #150060 !important;
-    border-top: none !important;
-    border-left: none !important;
-    border-right: none !important;
-    border-radius: 0 !important;
-    
-
-  }
-
- .contact-btn{
-    color: #150060;
-    background-color: #fff3eb;
-    border: none;
-    font-size: 25px;
-    outline: none;
-
-  }
-
-
-
-  .add-bg{
+ .add-bg,
+  footer,
+  form{
     position: relative; 
+    
     
   }
 
 
   .add-bg::before {
-    background-image: url("https://static.wixstatic.com/media/933d68_a670a18001924e9c89acc4fc0c81c1dc~mv2.gif");
+    background-image: url(https://static.wixstatic.com/media/933d68_a670a18001924e9c89acc4fc0c81c1dc~mv2.gif);
     content: "";
     background-size: cover;
     position: absolute;
@@ -257,71 +222,81 @@ button:focus{
     bottom: 0px;
     left: 0px; 
     opacity: 0.1;
-  }
-
-  label,
-  input,
-  textarea,
-  .contact-text,
-  .contact-btn {
-    position: relative;
-
-  }
-
-  input,
-  textarea {
-    opacity: 0.7;
-
-  }
-
-  .contact-btn {
-    width: 10%;
+    background-repeat: no-repeat;
   
-    margin: 10% auto;
-    border-radius: 50%;
+    
+  }
+
+  .contact-text{
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
+    padding: 0;
+    text-align: center;
+
+  }
+
+  form{
+    display: flex;
+    justify-content: center;
+  }
+
+  .contact-btn {
+   border-radius: 50%;
+   margin: 0 auto!important;
+   width: 10%;
     color: #150060;
     background-image: url(https://static.wixstatic.com/media/933d68_5be69fcfaebb4d4a9b40bc7e9c6de62f~mv2.gif);
     background-size: cover;
+    text-align: center;
+    margin-top: -.2rem !important;
+    color: #150060;
+    background-color: #fff3eb;
+    border: none;
+    font-size: 25px;
+    outline: none;
+    
    
   }
-
-
-
-  
-
-  
+  form{
+    text-align: center;
+  }
 
   
-  /* footer */
+  
+  /* social icon */
 
   footer{
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: -2em;
     
-  
+    
   }
-
-
-   footer i{
-    color: #150060;
-   
-   }
 
 
    .fa-linkedin-in {
-    margin-right: 2%;
-    margin-bottom: 4%;
-     float: right;
-     
-     
+    
+    float: right;
+    margin-left: 1rem;
+    
    }
   
    .fa-instagram{
-     float: left;
-     margin-left: 2%;
-     margin-bottom: 4%;
+    margin-right: 1rem;
+   
      
+   }
+
+   i {
+    color: #150060;
+    
     
    }
+
+
+
+
+   
 
    
 
