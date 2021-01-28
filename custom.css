@@ -293,6 +293,17 @@ button:focus{
     
    }
 
+   /* footer */
+   .footer{
+     color: #fff3eb;
+     background-color: #ffb6b6;
+     width: 100vw;
+     padding: .8em;
+     margin: 0 auto;
+     display: block;
+    } 
+   /* /footer */
+
 
 
 
