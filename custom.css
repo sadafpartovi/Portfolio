@@ -241,21 +241,25 @@ button:focus{
   }
 
   .contact-btn {
-   border-radius: 50%;
-   margin: 0 auto!important;
-   width: 10%;
-    color: #150060;
+    border-radius: 50%;
+    width: 10%;
+    color: #150060 !important;
     background-image: url(https://static.wixstatic.com/media/933d68_5be69fcfaebb4d4a9b40bc7e9c6de62f~mv2.gif);
     background-size: cover;
     text-align: center;
     margin-top: -.2rem !important;
-    color: #150060;
     background-color: #fff3eb;
-    border: none;
     font-size: 25px;
-    outline: none;
-    
+    border-style: none !important;
+    text-decoration: none;
    
+  }
+
+
+  .contact-btn:focus{
+    color: #150060;
+    
+
   }
   form{
     text-align: center;
